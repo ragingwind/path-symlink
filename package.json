@@ -1,0 +1,41 @@
+{
+  "name": "path-symlink",
+  "version": "0.0.0",
+  "description": "Create symlinks in a safe way",
+  "license": "MIT",
+  "repository": "ragingwind/path-symlink",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "symlink",
+    "dotfile"
+  ],
+  "dependencies": {
+    "globby": "^6.1.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "mkdirp": "^0.5.1",
+    "os-random-tmpdir": "^0.1.1",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+    }
+  }
+}
