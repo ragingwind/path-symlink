@@ -1,6 +1,6 @@
 {
   "name": "path-symlink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create symlinks in a safe way",
   "license": "MIT",
   "repository": "ragingwind/path-symlink",
