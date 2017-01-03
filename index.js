@@ -40,7 +40,7 @@ module.exports = (src, dest, opts) => {
 	}
 
 	opts = Object.assign({
-		strip: false
+		strip: true
 	}, opts);
 
 	return createSymlink(src, dest, opts);
