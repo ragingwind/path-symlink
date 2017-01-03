@@ -15,12 +15,8 @@ $ npm install --save path-symlink
 ```js
 const pathSymlink = require('path-symlink');
 
-pathSymlink([
-		'~/.dotfiles/**/*.symlink',
-		'~/Downloads/local/*'
-	], $HOME).then(links) {
+pathSymlink(['~/.dotfiles/**/*.symlink', '~/Downloads/local/*'], $HOME).then(links) {
 }
-
 ```
 
 ## API
