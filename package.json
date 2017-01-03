@@ -1,6 +1,6 @@
 {
   "name": "path-symlink",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create symlinks in a safe way",
   "license": "MIT",
   "repository": "ragingwind/path-symlink",
@@ -35,7 +35,12 @@
   "xo": {
     "esnext": true,
     "rules": {
-      "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
     }
   }
 }
